@@ -1,0 +1,40 @@
+/*footer*/
+.txt-top-footer{
+    background-color: #c4c4c4;
+    padding: 3px;
+  }
+  
+  .main-foot{
+    background-color: var(--ijocream);
+    padding-top: 15px;
+  }
+  .title-foot{
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+    padding: 10px 0;
+  }
+  
+  .foot-icon{
+    width: 25px;
+  }
+  
+  .foot-contact{
+    justify-content: end;
+    padding-bottom: 60px;
+  }
+  
+  .contact-content{
+    text-align: center;
+    margin:0 10px;
+  }
+  
+  .txt-foot{
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .foot-contact{
+      justify-content: center;
+      padding-bottom: 60px;
+    }
+  }

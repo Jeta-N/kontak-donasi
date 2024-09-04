@@ -1,0 +1,13 @@
+ScrollReveal().reveal('.jumbotron', { delay: 300 });
+ScrollReveal().reveal('.about-index', { delay: 300 });
+ScrollReveal().reveal('.bg-collaborators', { delay: 300 });
+ScrollReveal().reveal('.bg-article-content', { delay: 300 });
+ScrollReveal().reveal('.quotes', { delay: 300 });
+ScrollReveal().reveal('.content1', { delay: 300 },{ mobile: false });
+ScrollReveal().reveal('.content2', { delay: 400 },{ mobile: false });
+ScrollReveal().reveal('.content3', { delay: 500 },{ mobile: false });
+ScrollReveal().reveal('.content4', { delay: 600 },{ mobile: false });
+ScrollReveal().reveal('.tujuan-container', { delay: 300 });
+ScrollReveal().reveal('.about-us-content', { delay: 300 });
+ScrollReveal().reveal('.border-meet', { delay: 300 });
+ScrollReveal().reveal('.title-kontak', { delay: 300 }, {reset:false});

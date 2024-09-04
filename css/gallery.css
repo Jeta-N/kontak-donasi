@@ -1,0 +1,46 @@
+/* welcome-page */
+.under-navbar {
+  background-color: #c4c4c4;
+  position: absolute;
+  padding: 5px 0;
+  transform: translate(0px, 75px);
+}
+.under-text-navbar {
+  width: 27%;
+  text-align: end;
+}
+
+/*Main*/
+.main-section {
+  padding-top: 160px;
+}
+main {
+  background-color: #f0f0f0;
+}
+
+.padding-bot {
+  padding-bottom: 70px;
+}
+@media only screen and (max-width: 990px) {
+  .under-text-navbar {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .under-text-navbar {
+    width: 50%;
+  }
+  .img-gallery {
+    margin-top: 15px;
+  }
+}
+  /*Phone*/
+  @media only screen and (max-width: 480px) {
+    .under-text-navbar{
+      width: 100%;
+      text-align: start;
+      padding-left: 10px;
+    }
+  }
+  

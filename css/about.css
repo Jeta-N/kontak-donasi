@@ -1,0 +1,127 @@
+/* welcome-page */
+.under-navbar {
+  background-color: #c4c4c4;
+  position: absolute;
+  transform: translate(0px, 75px);
+  padding: 5px 0;
+}
+.under-text-navbar {
+  width: 27%;
+  text-align: end;
+}
+.jumbotron {
+  background-image: url(./../Assets/about/Jumbotron.png);
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+
+/* about kontak donasi */
+.about-us-content {
+  margin-top: 3rem;
+  margin-bottom: 100px;
+  border-bottom: 1px solid black;
+}
+.about-us-text {
+  margin-bottom: 120px;
+}
+
+.tujuan-img {
+  transform: translate(0, -30px);
+}
+
+.tujuan-container {
+  background-color: #d6d9cd;
+}
+
+.tujuan-text{
+  margin-top: 90px;
+}
+.misi-img {
+  transform: translate(0, 35px);
+}
+
+.resp-pos{
+  text-align: end;
+}
+
+/* Meet People Behind */
+.border-meet {
+  border-top: 2px solid black;
+  margin-top: 100px;
+  border-bottom: 1px solid black;
+}
+.people-text {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.card {
+  border: none;
+}
+.card-img-top {
+  padding: 0 50px;
+}
+.card-body{
+  padding-left: 50px;
+}
+.card-title {
+  color: var(--ijolumut2);
+}
+.card-text{
+  color: #201e1e60;
+ 
+}
+.card-subtitle{
+  color: rgb(91, 91, 91);
+}
+.people-card {
+  padding: 1rem;
+}
+.txt-top-footer{
+  margin-top: 75px;
+}
+@media only screen and (max-width: 990px) {
+  .under-text-navbar {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .under-text-navbar {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .tujuan-img {
+    transform: rotate(90deg);
+  }
+  .visi-img{
+    transform: rotate(-90deg);
+  }
+  .misi-img{
+    transform: rotate(90deg);
+  }
+  .resp-pos{
+    text-align: center;
+  }
+  .card-title, .card-subtitle, .card-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .people-card {
+    padding: 0 3rem;
+  }
+  .under-text-navbar {
+    width: 100%;
+    text-align: start;
+    padding-left: 10px;
+  }
+  .card-body{
+    padding-left: 30px;
+  }
+  .card{
+    margin: 15px 0;
+  }
+}

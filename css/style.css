@@ -1,0 +1,38 @@
+:root {
+    --white: #ffffff;
+    --ijolumut: #8f9779;
+    --ijolumut2: #7d836f;
+    --ijocream: #e1e5d3;
+  }
+  
+  /* General */
+  .font-weight-600 {
+    font-weight: 600;
+  }
+  .font-weight-700 {
+    font-weight: 700;
+  }
+  .color-ijo-lumut{
+    color: var(--ijolumut);
+  }
+  .color-ijo-lumut2{
+    color: var(--ijolumut2);
+  }
+  .color-ijo-cream{
+    color: var(--ijolumut);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+  }
+  @media only screen and (max-width: 770px) {
+    .order-content-1{
+      order: 1;
+    }
+    .order-content-2{
+      order: 0;
+      text-align: center;
+    }
+  }

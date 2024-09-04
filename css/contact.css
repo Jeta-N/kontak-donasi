@@ -1,0 +1,77 @@
+/* welcome-page */
+.under-navbar {
+  background-color: #c4c4c4;
+  position: absolute;
+  padding: 5px 0;
+  transform: translate(0px, 75px);
+}
+.under-text-navbar {
+  width: 27%;
+  text-align: end;
+}
+
+/*Main*/
+.main-section{
+  padding-top: 160px;
+}
+.title-kontak{
+  margin-bottom: 45px;
+}
+
+/*Kontak*/
+.kontak-img{  
+  padding: 35px;
+  text-align: start;
+}
+.bg-ijo{
+  background-color: var(--ijocream);
+}
+.kontak-text, .kontak-text-2{
+  padding-top: 60px;
+}
+.kontak-text-2{
+  text-align: end;
+}
+.bg-ijo .kontak-img{
+  text-align: end;
+}
+/*coming soon*/
+.coming-soon{
+  margin: 100px 0;
+}
+/*media query*/
+@media only screen and (max-width: 990px) {
+  .under-text-navbar{
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .under-text-navbar {
+    width: 50%;
+  }
+}
+
+/*Phone*/
+@media only screen and (max-width: 480px) {
+  .under-text-navbar {
+    width: 100%;
+    text-align: start;
+    padding-left: 10px;
+  }
+  .kontak-img{
+    text-align: center;
+  }
+  .bg-ijo .kontak-img{
+    text-align: center;
+  }
+  .kontak-text-2{
+    text-align: start;
+    order:1;
+  }
+  .kontak-text, .kontak-text-2{
+    padding-top: 0;
+    padding-left: 35px;
+  }
+ 
+}

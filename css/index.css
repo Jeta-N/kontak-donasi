@@ -1,0 +1,196 @@
+/* welcome-page */
+.under-navbar {
+  background-color: #c4c4c4;
+  position: absolute;
+  padding: 3px 0;
+  transform: translate(0px, 75px);
+}
+.under-text-navbar {
+  width: 27%;
+  text-align: end;
+}
+.jumbotron {
+  background: url(./../Assets/index/Jumbotron.png);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  margin-bottom: 4rem;
+}
+
+.jumbotron-text {
+  color: var(--white);
+  text-align: center;
+}
+
+/* About index */
+.content-about-index {
+  margin: 3rem 0;
+  padding-left: 3rem;
+}
+.about-index {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.text-definisi {
+  background-color: var(--ijocream);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.text-about-tiga {
+  margin-top: 75px;
+}
+
+.btn-default {
+  border: none;
+  border-radius: 31.5px;
+  font-size: 1.2rem;
+}
+
+.btn-learn-more {
+  background-color: var(--ijolumut);
+  color: var(--white);
+  padding: 8px 82px;
+}
+
+/*collaborators*/
+.img-collab {
+  width: 130px;
+  margin: 0 50px;
+}
+
+.bg-collaborators {
+  background-color: #f0f0f0;
+}
+.collab-content {
+  margin: 75px 0;
+  padding: 30px 0;
+}
+.collab-logo{
+  padding: 55px 0;
+}
+.btn-learn-under-collab{
+  margin-bottom: 75px;
+}
+/* Quotes */
+
+.text-quotes {
+  font-size: 2rem;
+  margin: 2rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 75px 0;
+}
+
+/* Kontak Donasi Article */
+.bg-article-content {
+  background-color: #f0f0f0;
+}
+.kd-article {
+  margin: 75px 0;
+  padding: 25px 0;
+}
+.link-article {
+  text-decoration: none;
+  color: black;
+}
+.link-article:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.hover-article:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+/*Media Query*/
+
+
+@media only screen and (max-width: 1200px) {
+  .testimoni-right > .testimoni-user > .testimoni-text {
+    padding: 0 3.5rem 0 1rem;
+  }
+  .testimoni-left > .testimoni-user > .testimoni-text {
+    padding: 0 1rem 0 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .testimoni-user{
+    width: 75%;
+    margin: 20px 0;
+  }
+  .under-text-navbar{
+    width: 35%;
+  }
+  .img-collab{
+    margin: 10px 20px;
+  }
+  .img-pihak{
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .testimoni-user{
+    width: 100%;
+    margin: 35px 0;
+  }
+  .under-text-navbar{
+    width: 50%;
+  }
+  .order-content-1{
+    order: 1;
+  }
+  .order-content-2{
+    order: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .user-left{
+    transform: translate(0, -105%);
+  }
+  .user-right{
+    transform: translate(0, -105%);
+  }
+  .testimoni-user{
+    margin: 55px 0;
+  }
+  .testimoni-right > .testimoni-user > .testimoni-text {
+    padding: 1rem;
+  }
+  .testimoni-left > .testimoni-user > .testimoni-text {
+    padding: 1rem;
+  }
+  .img-collab{
+    margin: 10px 20px;
+  }
+  .content-about-index{
+    padding-left: 0;
+  }
+  .text-quotes{
+    font-size: 1.5rem;
+  }
+}
+
+/*Phone*/
+@media only screen and (max-width: 480px) {
+  .under-navbar{
+    transform: translate(0, 75px);
+  }
+  .under-text-navbar{
+    width: 100%;
+    text-align: start;
+    padding-left: 10px;
+  }
+  .article-post{
+    margin-top: 40px;
+  }
+}
